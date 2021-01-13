@@ -2334,7 +2334,7 @@ div#tbCommentBodyPreview {
     transition-delay: .4s;
     outline: 0;
     cursor: pointer;
-    background: url(https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/me_top_bg.webp) center no-repeat #000;
+    background: url(https://cdn.jsdelivr.net/gh/jjiika56/Cnblogs-Theme-SimpleMemory@master/img/webp/me_top_bg.webp) center no-repeat #000;
     background-size: 100%
 }
 
@@ -3499,7 +3499,7 @@ div#green_channel img {
 }
 
 .footer-image {
-    background: url(https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/footer.webp) no-repeat 50%;
+    background: url(https://cdn.jsdelivr.net/gh/jjiika56/Cnblogs-Theme-SimpleMemory@master/img/webp/footer.webp) no-repeat 50%;
     height: 368px;
     z-index: 1;
     position: absolute;
