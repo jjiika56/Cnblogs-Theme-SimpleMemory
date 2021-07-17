@@ -908,9 +908,14 @@ function Base() {
             (homeTopImg.length > 1 ? bgImg = homeTopImg[tools.randomNum(0, homeTopImg.length - 1)] : bgImg = homeTopImg[0])
             : bgImg = "";
         $('.main-header').css({
-            'background': '#222 url("'+encodeURI(bgImg)+'")  center center no-repeat',
+            //'background': '#222 url("'+encodeURI(bgImg)+'")  center center no-repeat',
             'background-size': 'cover'
         });
+
+        // 更换主页视频URL
+        let player = document.querySelector('#v1');
+        player.src = encodeURI(bgImg);
+        player.play();
 
         bndongJs.setHitokoto();
         bndongJs.scrollMonitor();

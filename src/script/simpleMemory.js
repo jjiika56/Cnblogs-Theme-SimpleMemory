@@ -81,6 +81,10 @@ if (initCheck()) {
         '            <p class="article-info" id="articleInfo"></p>' +
         '        </div>' +
         '    </div>' +
+        '       <video id="v1" muted="" preload="auto" autoPlay="true" loop="">' +
+        '           <source src="https://webdownload.wmupd.com/webdownload/client/mhxzx_gwvideo_20210304main.mp4" type="video/mp4">' +
+        '       </video>' +
+        '    </div>' +
         '    <a class="scroll-down" href="javascript:void(0);" data-offset="-45">' +
         '        <span class="hidden">Scroll Down</span>' +
         '        <i class="scroll-down-icon iconfont icon-fanhui"></i>' +
